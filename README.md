@@ -1,5 +1,6 @@
 # NesneTespiti
-video veya görsel üzerinden açıklamalı nesne tespiti.\n
+video veya görsel üzerinden açıklamalı nesne tespiti.
+#
 ağırlık dosyası: https://pjreddie.com/media/files/yolov3.weights
 
 python: 3.9.13
