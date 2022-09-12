@@ -101,10 +101,10 @@ while True:
         print("obje {}".format(etiket))
     
         cv2.rectangle(frame, (baslangicX, baslangicY), (bitisX, bitisY), kutuRengi, 1)
-        cv2.rectangle(frame, (baslangicX - 1, baslangicY), (bitisX + 1, bitisY - 30), kutuRengi, -1) 
+        cv2.rectangle(frame, (baslangicX - 1, baslangicY), (bitisX + 1, baslangicY - 30), kutuRengi, -1) 
         cv2.putText(frame, etiket, (baslangicX, baslangicY - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, kutuRengi, 1)
     cv2.imshow("working",frame)
-    if cv2.waitKey(1) & ord("q") ==27:
+    if cv2.waitKey(30) & 0xFF == ord("q"):
         break
 
 video.release()
