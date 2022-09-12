@@ -75,8 +75,8 @@ while True:
     
     for maxId in maxIds:
     
-        maxClassId = maxId
-        #maxClassId = maxId[0]
+        #maxClassId = maxId
+        maxClassId = maxId[0]
         kutu = kutuListesi[maxClassId]
 
         baslangicX = kutu[0]
